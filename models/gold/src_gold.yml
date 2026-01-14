@@ -1,9 +1,0 @@
-version: 2
-
-sources:
-  - name: prod
-    tables:
-      - name: silver_logs
-        description: "Logs nettoyés S3"
-      - name: gold_visit_per_hour
-        description: "nombre de personnes par heures"
