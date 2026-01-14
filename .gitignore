@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+seeds/
+profiles.yml
+target/
+logs/
+.user.yml
+logswintershop.duckdb
+
+# Virtual environments
+.venv
