@@ -1,9 +1,9 @@
-name: 'shop'
+name: 'logswintershop'
 
 config-version: 2
 version: '0.1'
 
-profile: 'shop'
+profile: 'logswintershop'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -21,5 +21,5 @@ require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 
 models:
-  shop:
+  logswintershop:
     materialized: table

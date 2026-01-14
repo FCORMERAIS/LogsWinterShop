@@ -11,6 +11,7 @@ target/
 logs/
 .user.yml
 logswintershop.duckdb
+.env
 
 # Virtual environments
 .venv

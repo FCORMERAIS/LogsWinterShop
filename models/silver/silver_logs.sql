@@ -1,0 +1,1 @@
+SELECT * FROM {{ source('prod', 'bronze_logs')}}

@@ -7,5 +7,6 @@ requires-python = ">=3.10"
 dependencies = [
     "dbt-core>=1.11.2",
     "dbt-duckdb>=1.10.0",
+    "dbt-postgres>=1.10.0",
     "duckdb>=1.4.3",
 ]
