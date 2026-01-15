@@ -4,7 +4,6 @@ WITH base AS (
 )
 
 SELECT
-    date_trunc('hour', log_date) AS hour,
-    COUNT(DISTINCT ip_address) AS visitors_count
+    year,month,day,hour, COUNT(DISTINCT ip_address) AS visitors_count
 FROM base
-GROUP BY hour
+GROUP BY year,month,day,hour
